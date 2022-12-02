@@ -6,7 +6,7 @@ const Landing = () => {
   return (
 <div>
  {/* <Image src={overlay} alt='/' className='bg-black '  /> */}
-<div className='flex justify-between px-14 py-14 text-white bg-black'>
+<div className='flex justify-between px-14 py-14 text-white bg-black flex-wrap'>
         <div>
             <h1 className='text-4xl font-bold pb-14'> 
             The Portable Way of Proving <br />

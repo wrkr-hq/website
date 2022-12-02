@@ -4,7 +4,7 @@ import group from '../public/group.png'
 
 const DetectFraud = () => {
   return (
-    <div className='flex justify-between px-14 py-14 text-black bg-white static'>
+    <div className='flex justify-between px-14 py-14 text-black bg-white static flex-wrap'>
       <div>
         <Image src={group} alt='/'
         width='500'/>

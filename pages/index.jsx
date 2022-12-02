@@ -7,7 +7,7 @@ import DetectFraud from './DetectFraud'
 
 export default function Home() {
   return (
-    <div className=''>
+    <div className='flex '>
       <Head>
         <title>Create Next App</title>
       </Head>
