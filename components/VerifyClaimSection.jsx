@@ -5,11 +5,11 @@ import verifyclaim from '../public/verifyclaim.svg'
 const VerifyClaimSection = () => {
   return (
     <div>
-        <main className='max-w-[1440px] mx-auto'>
+        <main className='max-w-[1440px] mx-auto max-h-[600px]'>
 
             <div className='flex flex-col'>
 
-            <div className='flex  items-center h-screen pl-[160px]'>
+            <div className='flex  items-center pl-[160px]'>
                 <div className='w-[498px] mr-[100px]'>
                 <div className='text-3xl font-semibold'>Verify claims from different industries</div>
                 <div>
@@ -17,7 +17,7 @@ const VerifyClaimSection = () => {
                 </div>
                 </div>
 
-                <div>
+                <div className='pr-[160px]'>
                     <Image 
                         src={verifyclaim}
                         alt="verify claim" />

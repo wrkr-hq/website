@@ -20,10 +20,12 @@ export default function Home() {
         <OnboardingSection />
         </div>
 
+        <VerificationUpgrade/>
+
         <div>
           <VerifyClaimSection />
         </div>
-        <VerificationUpgrade/>
+        
         <DetectFraud/>
       </main>
       <footer className={styles.footer}>
