@@ -7,6 +7,7 @@ import VerifyClaimSection from '../components/VerifyClaimSection'
 import VerificationUpgrade from './VerificationUpgrade'
 import DetectFraud from './DetectFraud'
 import HowItWorksSection from '../components/HowItWorksSection'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
       </Head>
-      <main>
+      <main className='w-full'>
         <Navigation/>
         <Landing/>
         <div>
@@ -33,7 +34,8 @@ export default function Home() {
           <HowItWorksSection />
         </div>
       </main>
-      <footer className={styles.footer}>
+      <footer>
+        <Footer />
       </footer>
     </div>
   )
