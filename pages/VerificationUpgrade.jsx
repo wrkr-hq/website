@@ -4,7 +4,7 @@ import upgradeVerification from '../public/upgradeVerification.svg'
 
 const VerificationUpgrade = () => {
   return (
-    <div className='flex justify-between px-14 py-14 text-black bg-white static flex-wrap'>
+    <div className='max-w-[1440px] flex justify-between px-20 py-14 text-black bg-white static flex-wrap'>
       <div>
         <Image src={upgradeVerification} alt='/'/>
       </div>

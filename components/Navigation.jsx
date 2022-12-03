@@ -4,7 +4,7 @@ import WRKR from '../public/WRKR.svg'
 const Navigation = () => {
   return (
     <div>
-        <nav className=' flex bg-black text-white justify-between px-14 py-8'>
+        <nav className='max-w-[1440px] flex bg-black text-white justify-between px-20 py-8'>
             <div>
             <Image  src={WRKR} alt='/'/>
 
