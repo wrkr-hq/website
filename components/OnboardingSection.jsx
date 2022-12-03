@@ -4,10 +4,10 @@ import e2e from '../public/endToEnd.svg'
 
 const OnboardingSection = () => {
   return (
-    <div>
+    <div className='bg-white'>
         <main className='max-w-[1440px] mx-auto bg-[url("../public/vector2.png")] bg-no-repeat bg-right bg-half max-h-[800px] pb-[3.75rem]'>
 
-            <div className='flex flex-col'>
+            <div className='flex flex-col text-[#02000B]'>
               <div className='flex self-center mx-auto border-[1px] border-[#BFDCFFF7] rounded my-[3.75rem]'>
                 <div className='px-[30px] py-[11px] border-r-[1px] border-[#BFDCFFF7]'>PortableOS</div>
                 <div className='px-[30px] py-[11px] border-r-[1px] border-[#BFDCFFF7]'>Onboarding</div>
@@ -16,7 +16,7 @@ const OnboardingSection = () => {
                 <div className='px-[30px] py-[11px]'>Fraud</div>
               </div>
 
-              <div className='flex  items-center pl-[160px]'>
+              <div className='flex  items-center pl-[160px] text-[#02000B]'>
                 <div className='w-[498px] mr-[100px]'>
                   <div className='text-3xl font-semibold'>End-to-End identity verification for onboarding in 10 seconds</div>
                   <div>
