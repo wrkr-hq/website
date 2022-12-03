@@ -4,7 +4,8 @@ import group from '../public/group.png'
 
 const DetectFraud = () => {
   return (
-    <div className='max-w-[1440px] flex justify-between px-14 py-20 text-black bg-white static flex-wrap'>
+    <div className='max-w-[1440px] flex justify-between px-14 py-20 text-black bg-white mx-auto
+     bg-[url("../public/vector2.png")] bg-no-repeat bg-left bg-half max-h-[800px]'>
       <div>
         <Image src={group} alt='/'
         width='500'/>

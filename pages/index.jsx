@@ -1,12 +1,12 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Navigation from '../components/Navigation'
-import Landing from './Landing'
+import Landing from '../components/Landing'
 import OnboardingSection from '../components/OnboardingSection'
 import VerifyClaimSection from '../components/VerifyClaimSection'
-import VerificationUpgrade from './VerificationUpgrade'
+import VerificationUpgrade from '../components/VerificationUpgrade'
 import PersonalIdentity from '../components/PersonalIdentity'
-import DetectFraud from './DetectFraud'
+import DetectFraud from '../components/DetectFraud'
 
 export default function Home() {
   return (
