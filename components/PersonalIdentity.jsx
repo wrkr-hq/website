@@ -3,6 +3,7 @@ import Image from 'next/image'
 import phone from '../public/phone.svg'
 import AppStore from '../public/AppStore.svg'
 import GooglePlay from '../public/GooglePlay.svg'
+import Link from 'next/link'
 
 
 const PersonalIdentity = () => {
@@ -21,12 +22,12 @@ const PersonalIdentity = () => {
         </p>
         <div>
           <div className='flex space-x-4 mt-24'>
-            <a href="/">
-            <Image src={AppStore} alt='App Store' className='w-[150px]'/>
-            </a>
-            <a href="/">
-            <Image src={GooglePlay} className='w-[150px]' alt='Google Play' />
-            </a>
+            <Link href="/">
+              <Image src={AppStore} alt='App Store' className='w-[150px]'/>
+            </Link>
+            <Link href="/">
+              <Image src={GooglePlay} className='w-[150px]' alt='Google Play' />
+            </Link>
           </div>
         </div>
       </div>

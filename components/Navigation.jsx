@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import WRKR from '../public/WRKR.svg'
 const Navigation = () => {
   return (
@@ -10,10 +11,18 @@ const Navigation = () => {
 
             </div>
             <div className='space-x-4  justify-between '>
-                <a href='/'>Products</a>
-                <a href='/'>Usecases</a>
-                <a href='/'>Developers</a>
-                <a href='/'>Company</a>
+                <Link href='/'>
+                    Products
+                </Link>
+                <Link href='/'>
+                    Usecases
+                </Link>
+                <Link href='/'>
+                    Developers
+                </Link>
+                <Link href='/'>
+                    Company
+                </Link>
             </div>
             <div>
                 <button className='border-[1px] rounded-md px-[75px] py-[15px] font-medium text-[#BFDCFF] border-[#BFDCFF]'>
