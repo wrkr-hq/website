@@ -8,7 +8,9 @@ import Link from 'next/link'
 
 const PersonalIdentity = () => {
   return (
-    <div className='max-w-[1440px] flex flex-col-reverse lg:flex-row justify-evenly px-10 py-10 lg:px-14 lg:py-20 text-black bg-white mx-auto bg-[url("../public/vector2.png")] bg-no-repeat bg-right bg-half max-h-[800px]'>
+    <div className='max-w-[1440px] flex flex-col-reverse lg:flex-row 
+    justify-evenly px-10 py-10 lg:px-14 lg:py-20 text-black bg-white mx-auto 
+    bg-[url("../public/vector2.png")] bg-no-repeat bg-right bg-half max-h-[800px]'>
      
       <div className='grid content-center self-center'>
         <h3 className='text-xl lg:text-3xl font-semibold pb-8'>

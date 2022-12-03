@@ -8,7 +8,7 @@ import Link from 'next/link'
 
 const PartnerProgram = () => {
   return (
-    <div className='place-content-center px-10 lg:px-0'>
+    <div className='place-content-center px-10 lg:px-0 bg-white'>
      <div className='text-center'>
          <div className='text-xl lg:text-3xl font-semibold pb-8'>
         Partner Program
