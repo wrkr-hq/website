@@ -4,53 +4,52 @@ import Navigation from '../components/Navigation'
 import Landing from '../components/Landing'
 import OnboardingSection from '../components/OnboardingSection'
 import VerifyClaimSection from '../components/VerifyClaimSection'
-import VerificationUpgrade from './VerificationUpgrade'
-import DetectFraud from './DetectFraud'
+import VerificationUpgrade from '../components/VerificationUpgrade'
+import DetectFraud from '../components/DetectFraud'
 import HowItWorksSection from '../components/HowItWorksSection'
+import PersonalIdentity from '../components/PersonalIdentity'
+import PartnerProgram from '../components/PartnerProgram'
 import Footer from '../components/Footer'
 
 export default function Home() {
   return (
-    <div className='flex '>
+    <div className=''>
       <Head>
         <title>Create Next App</title>
       </Head>
-      <main className='w-full'>
-        <div>
-          <Navigation/>
-        </div>
-        <div>
-          <Navigation/>
-        </div>
-        <div>
-          <Landing/>
-        </div>
-        <div>
-          <OnboardingSection />
-        </div>
-        <div>
-          <VerificationUpgrade/>
-        </div>
-        <div>
-          <VerifyClaimSection />
-        </div>
-        <div>
-          <DetectFraud/>
-        </div>
-        <div>
-          <PersonalIdentity/>
-        </div>
-        <div>
-          <PartnerProgram/>
-        </div>
+      <main className=''>
+          <div>
+            <Navigation/>
+          </div>
+          <div>
+            <Landing/>
+          </div>
+          <div>
+            <OnboardingSection />
+          </div>
+          <div>
+            <VerificationUpgrade/>
+          </div>
+          <div>
+            <VerifyClaimSection />
+          </div>
+          <div>
+            <DetectFraud/>
+          </div>
+          <div>
+            <HowItWorksSection />
+          </div>
+          <div>
+            <PersonalIdentity/>
+          </div>
+          <div>
+            <PartnerProgram/>
+          </div>
 
-        <div>
-          <HowItWorksSection />
-        </div>
+          <footer>
+            <Footer />
+          </footer>
       </main>
-      <footer>
-        <Footer />
-      </footer>
     </div>
   )
 }

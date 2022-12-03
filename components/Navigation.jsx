@@ -3,8 +3,8 @@ import Image from 'next/image'
 import WRKR from '../public/WRKR.svg'
 const Navigation = () => {
   return (
-    <div>
-        <nav className='max-w-[1440px] flex bg-black text-white justify-between px-20 py-8'>
+    <div className='bg-black'>
+        <nav className='max-w-[1440px] mx-auto flex items-center text-white justify-between px-20 py-8'>
             <div>
             <Image  src={WRKR} alt='/'/>
 
@@ -16,7 +16,7 @@ const Navigation = () => {
                 <a href='/'>Company</a>
             </div>
             <div>
-                <button className=' border rounded-md px-8 py-1 text-teal-100 border-teal-100'>
+                <button className='border-[1px] rounded-md px-[75px] py-[15px] font-medium text-[#BFDCFF] border-[#BFDCFF]'>
                     Schedule Demo
                 </button>
             </div>

@@ -42,7 +42,7 @@ const PartnerProgram = () => {
      </div>
      <div className='grid place-items-center'>
      <a href="/">
-            <button className=' border rounded-md m-8 px-8 py-1 text-black bg-teal-100'>
+            <button className=' border rounded-md m-8 px-[75px] py-[15px] font-medium text-black bg-[#BFDCFF]'>
                 Let's Talk
             </button>
      </a>

@@ -12,8 +12,8 @@ import unionleft from '../public/Unionleft.svg'
 
 const HowItWorksSection = () => {
   return (
-    <div className='bg-[url("../public/howitworksbg.svg)] bg-[#02000B]'>
-        <main className='max-w-[1440px] mx-auto pb-[88px] px-[100px]'>
+    <div className='bg-[#02000B] bg-[url("../public/howitworksbg.svg)] lg:bg-[#02000B]'>
+        <main className='w-full lg:min-w-[1440px] mx-auto pb-[88px] px-[100px]'>
 
             <div className='flex flex-col'>
 
@@ -24,7 +24,7 @@ const HowItWorksSection = () => {
                     </div>
                 </div>
 
-            <div className='flex flex-col items-center'>
+            <div className='flex w-full flex-wrap lg:flex-nowrap lg:flex lg:flex-col lg:items-center'>
                 <div className='flex items-center mb-[84px]'>
                     <div className='flex flex-col items-center justify-center w-[178px] mr-[84px]'>
                         <div>

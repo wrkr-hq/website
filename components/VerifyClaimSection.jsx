@@ -5,7 +5,7 @@ import verifyclaim from '../public/verifyclaim.svg'
 const VerifyClaimSection = () => {
   return (
     <div className='bg-white'>
-        <main className='max-w-[1440px] mx-auto max-h-[600px]'>
+        <main className='max-w-[1440px] mx-auto max-h-[600px] py-[50px]'>
 
             <div className='flex flex-col'>
 
