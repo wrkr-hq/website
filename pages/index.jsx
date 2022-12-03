@@ -7,6 +7,7 @@ import VerifyClaimSection from '../components/VerifyClaimSection'
 import VerificationUpgrade from '../components/VerificationUpgrade'
 import PersonalIdentity from '../components/PersonalIdentity'
 import DetectFraud from '../components/DetectFraud'
+import PartnerProgram from '../components/PartnerProgram'
 
 export default function Home() {
   return (
@@ -35,6 +36,9 @@ export default function Home() {
         </div>
         <div>
           <PersonalIdentity/>
+        </div>
+        <div>
+          <PartnerProgram/>
         </div>
       </main>
       <footer className={styles.footer}>

@@ -21,8 +21,12 @@ const PersonalIdentity = () => {
         </p>
         <div>
           <div className='flex space-x-4 mt-24'>
+            <a href="/">
             <Image src={AppStore} alt='App Store' className='w-[150px]'/>
+            </a>
+            <a href="/">
             <Image src={GooglePlay} className='w-[150px]' alt='Google Play' />
+            </a>
           </div>
         </div>
       </div>

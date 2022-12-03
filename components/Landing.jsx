@@ -20,7 +20,7 @@ const Landing = () => {
             <p className='text-teal-200 mb-14'>
             Realtime, No long forms, document scan or selfies
             </p>
-            <button className=' border rounded px-8 py-1 text-black bg-teal-100'>
+            <button className=' border rounded-md px-8 py-1 text-black bg-teal-100'>
                 Get Started
             </button>
         </div>

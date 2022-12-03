@@ -16,7 +16,7 @@ const Navigation = () => {
                 <a href='/'>Company</a>
             </div>
             <div>
-                <button className=' border rounded px-8 py-1 text-teal-100 border-teal-100'>
+                <button className=' border rounded-md px-8 py-1 text-teal-100 border-teal-100'>
                     Schedule Demo
                 </button>
             </div>
