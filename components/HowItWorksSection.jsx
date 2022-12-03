@@ -107,7 +107,7 @@ const HowItWorksSection = () => {
                         <div>
                             <div className='text-white text-center text-[32px] font-semibold'>Step 5</div>
                             <div className='text-white text-center'>
-                            Consumer's info is encrypted and securely passed through WRKR to your company. 
+                            Consumer&apos;s info is encrypted and securely passed through WRKR to your company. 
                             </div>
                         </div>
                     </div>

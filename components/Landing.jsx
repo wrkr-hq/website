@@ -13,7 +13,7 @@ const Landing = () => {
             Identity and Reputation.
             </h1>
             <p>
-            Empower your customers' to continue with 1-click using authenticated personal <br />
+            Empower your customers&apos; to continue with 1-click using authenticated personal <br />
              data they have generated from trusted companies within our Identity network.
             </p>
             <br />
