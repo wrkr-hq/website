@@ -3,9 +3,9 @@ import React from 'react'
 const Footer = () => {
   return (
     <div className='bg-[#02000B] text-white'>
-        <main className='max-w-[1440px] mx-auto px-[100px] py-[96px] '>
-            <div className='flex flex-col lg:flex lg:flex-row'>
-                <div className='max-w-[491px] mr-[81px]'>
+        <main className='max-w-[1440px] mx-auto px-10 py-[76px] lg:px-[100px] lg:py-[96px] '>
+            <div className='flex flex-col lg:flex-row'>
+                <div className='max-w-[491px] mb-8 lg:mb-0 lg:mr-[81px]'>
                     <div className='text-[33.54px] font-[900]'>WRKR</div>
                     <div>
                         <p>we&apos;re a real-time reusable, interoperable digital identity & claims infrastructure that enables businesses to verify the reputation of their customer before they serve them while prioritizing user privacy.
@@ -13,7 +13,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className='flex justify-between w-full'>
+                <div className='flex flex-col lg:flex-row justify-between w-full'>
                     <div>
                         <div className='text-2xl font-semibold mb-[16px]'>Business</div>
 

@@ -10,6 +10,11 @@ import HowItWorksSection from '../components/HowItWorksSection'
 import PersonalIdentity from '../components/PersonalIdentity'
 import PartnerProgram from '../components/PartnerProgram'
 import Footer from '../components/Footer'
+import Image from 'next/image'
+
+import point from '../public/point.svg'
+import briefcase from '../public/briefcase.svg'
+import user from '../public/user.svg'
 
 export default function Home() {
   return (
@@ -17,6 +22,9 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
       </Head>
+      {/* <main className='max-w-[1440px] mx-auto'>
+        <h1 className='bg-black w-full text-white text-center lg:text-left'>In the middle, and full!</h1>
+      </main> */}
       <main className=''>
           <div>
             <Navigation/>
@@ -42,6 +50,58 @@ export default function Home() {
           <div>
             <PersonalIdentity/>
           </div>
+
+          <section>
+            <div className='w-full max-w-[1440px] mx-auto flex flex-col lg:flex-row px-10 mb-10 lg:mb-[107px]'>
+              <div className='bg-[#02000B] text-white rounded-md mb-6 lg:px-[32px] lg:py-[42px] lg:mb-0  lg:mr-[1rem]'>
+                <div className='flex items-center lg:mb-[26px]'>
+                  <div className='mr-[1rem]'><Image src={briefcase} alt='' /></div>
+                  <div className='lg:text-2xl'>For businesses</div>
+                </div>
+                <div className='flex items-center lg:mb-[1rem]'>
+                  <div className='mr-2'><Image src={point} alt='' /></div>
+                  <div className='text-sm lg:text-base'>Engage the most valuable customers, who convert at a 50% higher rate than guests.</div>
+                </div>
+                <div className='flex items-center lg:mb-[1rem]'>
+                  <div className='mr-2'><Image src={point} alt='' /></div>
+                  <div className='text-sm lg:text-base'>Give every consumer a lightning-fast, one-click checkout, even if they have never purchased at your site before, and watch your conversion rate rise.</div>
+                </div>
+                <div className='flex items-center lg:mb-[1rem]'>
+                  <div className='mr-2'><Image src={point} alt='' /></div>
+                  <div className='text-sm lg:text-base'>You can rely on our security and privacy. WRKR handles payment data across the network securely and in accordance with applicable laws and standards.</div>
+                </div>
+                <div className='flex items-center lg:mb-[1rem]'>
+                  <div className='mr-2'><Image src={point} alt='' /></div>
+                  <div className='text-sm lg:text-base'>Join the growing network! As more retailers and customers join the WRKR network, it can help you increase sales by providing an amazing experience.</div>
+                </div>
+              </div>
+
+              <div className='bg-[#02000B] text-white rounded-md mb-6 lg:px-[32px] lg:py-[42px] lg:mb-0  lg:mr-[1rem]'>
+                
+                <div className='flex items-center lg:mb-[26px]'>
+                  <div className='mr-[1rem]'><Image src={user} alt='' /></div>
+                  <div className='lg:text-2xl'>For personal users</div>
+                </div>
+                <div className='flex items-center lg:mb-[1rem]'>
+                  <div className='mr-2'><Image src={point} alt='' /></div>
+                  <div className='text-sm lg:text-base'>Create an account once and never have to remember a password again. Then never enter your personal or payment data again when shopping online.</div>
+                </div>
+                <div className='flex items-center lg:mb-[1rem]'>
+                  <div className='mr-2'><Image src={point} alt='' /></div>
+                  <div className='text-sm lg:text-base'>No passwords or user names to remember. Customers are verified with a one-time password with no friction.</div>
+                </div>
+                <div className='flex items-center lg:mb-[1rem]'>
+                  <div className='mr-2'><Image src={point} alt='' /></div>
+                  <div className='text-sm lg:text-base'>Convenience and security. WRKR makes it simple to purchase online while maintaining your privacy and security.</div>
+                </div>
+                <div className='flex items-center lg:mb-[1rem]'>
+                  <div className='mr-2'><Image src={point} alt='' /></div>
+                  <div className='text-sm lg:text-base'>Better shopping everywhere. With WRKR, you can use a single click to check out from stores you&apos;ve never visited before.</div>
+                </div>
+              </div>
+            </div>
+          </section>
+
           <div>
             <PartnerProgram/>
           </div>
