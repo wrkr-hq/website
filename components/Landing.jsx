@@ -4,23 +4,23 @@ import overlay from '../public/overlay.svg'
 import Image from 'next/image'
 const Landing = () => {
   return (
-<div>
+<div className='bg-black'>
  {/* <Image src={overlay} alt='/' className='bg-black '  /> */}
-<div className='flex max-w-[1440px]] justify-between px-20 py-14 text-white bg-black'>
+<div className='flex max-w-[1440px] mx-auto justify-between px-20 py-14 text-white'>
         <div>
             <h1 className='text-4xl font-bold pb-14'> 
             The Portable Way of Proving <br />
             Identity and Reputation.
             </h1>
             <p>
-            Empower your customers' to continue with 1-click using authenticated personal <br />
+            Empower your customers&apos; to continue with 1-click using authenticated personal <br />
              data they have generated from trusted companies within our Identity network.
             </p>
             <br />
-            <p className='text-teal-200 mb-14'>
+            <p className='text-[#BFDCFF] mb-14'>
             Realtime, No long forms, document scan or selfies
             </p>
-            <button className=' border rounded-md px-8 py-1 text-black bg-teal-100'>
+            <button className=' border rounded-md px-[75px] py-[15px] font-medium text-black bg-[#BFDCFF]'>
                 Get Started
             </button>
         </div>

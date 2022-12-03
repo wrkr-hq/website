@@ -3,6 +3,7 @@ import Image from 'next/image'
 import accelerate from '../public/accelerate.svg'
 import friction from '../public/friction.svg'
 import Secure from '../public/Secure.svg'
+import Link from 'next/link'
 
 
 const PartnerProgram = () => {
@@ -41,11 +42,11 @@ const PartnerProgram = () => {
         </div>
      </div>
      <div className='grid place-items-center'>
-     <a href="/">
-            <button className=' border rounded-md m-8 px-8 py-1 text-black bg-teal-100'>
+        <Link href="/">
+            <button className=' border rounded-md m-8 px-[75px] py-[15px] font-medium text-black bg-[#BFDCFF]'>
                 Let's Talk
             </button>
-     </a>
+        </Link>
      </div>
     </div>
     
