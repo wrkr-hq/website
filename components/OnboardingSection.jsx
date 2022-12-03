@@ -18,7 +18,7 @@ const OnboardingSection = () => {
 
               <div className='flex  items-center pl-[160px] text-[#02000B]'>
                 <div className='w-[498px] mr-[100px]'>
-                  <div className='text-3xl font-semibold'>End-to-End identity verification for onboarding in 10 seconds</div>
+                  <div className='text-3xl font-semibold pb-8'>End-to-End identity verification for onboarding in 10 seconds</div>
                   <div>
                   Reduce friction and abandonment rates at a fragment of legacy system costs, through fully compliant pre-approved KYC from trusted companies within our Identity network, consented and controlled by the customer in under 10 seconds.
                   </div>

@@ -4,7 +4,7 @@ import WRKR from '../public/WRKR.svg'
 const Navigation = () => {
   return (
     <div>
-        <nav className=' flex bg-black text-white justify-between px-14 py-8'>
+        <nav className='max-w-[1440px] flex bg-black text-white justify-between px-20 py-8'>
             <div>
             <Image  src={WRKR} alt='/'/>
 
@@ -16,7 +16,7 @@ const Navigation = () => {
                 <a href='/'>Company</a>
             </div>
             <div>
-                <button className=' border rounded px-8 py-1 text-teal-100 border-teal-100'>
+                <button className=' border rounded-md px-8 py-1 text-teal-100 border-teal-100'>
                     Schedule Demo
                 </button>
             </div>

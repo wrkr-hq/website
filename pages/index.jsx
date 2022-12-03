@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import Navigation from './Navigation'
-import Landing from './Landing'
+import Navigation from '../components/Navigation'
+import Landing from '../components/Landing'
 import OnboardingSection from '../components/OnboardingSection'
 import VerifyClaimSection from '../components/VerifyClaimSection'
 import VerificationUpgrade from './VerificationUpgrade'
@@ -11,24 +11,38 @@ import Footer from '../components/Footer'
 
 export default function Home() {
   return (
-    <div className=''>
+    <div className='flex '>
       <Head>
         <title>Create Next App</title>
       </Head>
       <main className='w-full'>
-        <Navigation/>
-        <Landing/>
         <div>
-        <OnboardingSection />
+          <Navigation/>
         </div>
-
-        <VerificationUpgrade/>
-
+        <div>
+          <Navigation/>
+        </div>
+        <div>
+          <Landing/>
+        </div>
+        <div>
+          <OnboardingSection />
+        </div>
+        <div>
+          <VerificationUpgrade/>
+        </div>
         <div>
           <VerifyClaimSection />
         </div>
-
-        <DetectFraud/>
+        <div>
+          <DetectFraud/>
+        </div>
+        <div>
+          <PersonalIdentity/>
+        </div>
+        <div>
+          <PartnerProgram/>
+        </div>
 
         <div>
           <HowItWorksSection />

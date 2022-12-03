@@ -6,7 +6,7 @@ const Landing = () => {
   return (
 <div>
  {/* <Image src={overlay} alt='/' className='bg-black '  /> */}
-<div className='flex justify-between px-14 py-14 text-white bg-black'>
+<div className='flex max-w-[1440px]] justify-between px-20 py-14 text-white bg-black'>
         <div>
             <h1 className='text-4xl font-bold pb-14'> 
             The Portable Way of Proving <br />
@@ -20,7 +20,7 @@ const Landing = () => {
             <p className='text-teal-200 mb-14'>
             Realtime, No long forms, document scan or selfies
             </p>
-            <button className=' border rounded px-8 py-1 text-black bg-teal-100'>
+            <button className=' border rounded-md px-8 py-1 text-black bg-teal-100'>
                 Get Started
             </button>
         </div>
