@@ -33,7 +33,7 @@ export default function Home() {
       {/* <main className='max-w-[1440px] mx-auto'>
         <h1 className='bg-black w-full text-white text-center lg:text-left'>In the middle, and full!</h1>
       </main> */}
-      <main className=''>
+      <main className='bg-white'>
           <div>
             <Navigation/>
           </div>
@@ -59,10 +59,10 @@ export default function Home() {
             <PersonalIdentity/>
           </div>
 
-          <section>
+          <section className='bg-[#FCFBFF] py-20'>
             <div className='w-full max-w-[1440px] mx-auto flex flex-col lg:flex-row px-10 mb-10 lg:mb-[107px]'>
-              <div className='bg-[#02000B] text-white rounded-md mb-6 lg:px-[32px] lg:py-[42px] lg:mb-0  lg:mr-[1rem]'>
-                <div className='flex items-center lg:mb-[26px]'>
+              <div className='bg-[#02000B] text-white rounded-md mb-6 p-8 lg:px-[32px] lg:py-[42px] lg:mb-0  lg:mr-[1rem]'>
+                <div className='flex items-center mb-6 lg:mb-[26px]'>
                   <div className='mr-[1rem]'><Image src={briefcase} alt='' /></div>
                   <div className='lg:text-2xl'>For businesses</div>
                 </div>
@@ -84,9 +84,9 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className='bg-[#02000B] text-white rounded-md mb-6 lg:px-[32px] lg:py-[42px] lg:mb-0  lg:mr-[1rem]'>
+              <div className='bg-[#02000B] text-white rounded-md mb-6 p-8 lg:px-[32px] lg:py-[42px] lg:mb-0  lg:mr-[1rem]'>
                 
-                <div className='flex items-center lg:mb-[26px]'>
+                <div className='flex items-center mb-6 lg:mb-[26px]'>
                   <div className='mr-[1rem]'><Image src={user} alt='' /></div>
                   <div className='lg:text-2xl'>For personal users</div>
                 </div>
