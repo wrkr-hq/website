@@ -11,7 +11,6 @@ import PersonalIdentity from '../components/PersonalIdentity'
 import PartnerProgram from '../components/PartnerProgram'
 import Footer from '../components/Footer'
 import Image from 'next/image'
-
 import point from '../public/point.svg'
 import briefcase from '../public/briefcase.svg'
 import user from '../public/user.svg'
@@ -20,7 +19,16 @@ export default function Home() {
   return (
     <div className=''>
       <Head>
-        <title>Create Next App</title>
+      <link rel="apple-touch-icon" sizes="180x180" href="../public/apple-touch-icon.png"/>
+      <link rel="icon" type="image/png" sizes="32x32" href="../public/favicon-32x32.png"/>
+      <link rel="icon" type="image/png" sizes="16x16" href="../public/favicon-16x16.png"/>
+      <link rel="manifest" href="../public/site.webmanifest"/>
+      <link rel="mask-icon" href="../public/safari-pinned-tab.svg" color="#5bbad5"/>
+      <link rel="shortcut icon" href="../public/favicon.ico"/>
+      <meta name="msapplication-TileColor" content="#da532c"/>
+      <meta name="msapplication-config" content="../public/browserconfig.xml"/>
+      <meta name="theme-color" content="#ffffff"/>
+      <title>WRKR Technologies Inc.</title>
       </Head>
       {/* <main className='max-w-[1440px] mx-auto'>
         <h1 className='bg-black w-full text-white text-center lg:text-left'>In the middle, and full!</h1>
