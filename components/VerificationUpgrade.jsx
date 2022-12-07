@@ -4,13 +4,13 @@ import upgradeVerification from '../public/upgradeVerification.svg'
 
 const VerificationUpgrade = () => {
   return (
-    <div className='bg-[#FCFBFF]'>
-      <div className='max-w-[1440px] flex justify-between px-10 lg:px-20 py-14 text-black
-      flex-wrap mx-auto bg-[url("../public/vector2.png")] bg-no-repeat bg-left bg-half max-h-[800px]'>
+    <div id="authentication" className='bg-[#FCFBFF]'>
+      <div className='max-w-[1440px] flex flex-wrap lg:flex-nowrap justify-between px-10 lg:px-20 py-14 text-black
+       mx-auto bg-[url("../public/vector2.png")] bg-no-repeat bg-left bg-half max-h-[800px]'>
         <div className='mb-8 lg:mb-0'>
           <Image src={upgradeVerification} alt='/'/>
         </div>
-        <div className='grid content-center'>
+        <div className='grid content-center lg:w-[566px]'>
           <h3 className='text-xl lg:text-3xl font-semibold pb-8'>
           Upgrade your verification process. <br />
           Go Passwordless
