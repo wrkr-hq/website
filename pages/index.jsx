@@ -67,19 +67,19 @@ export default function Home() {
                   <div className='lg:text-2xl'>For businesses</div>
                 </div>
                 <div className='flex items-center lg:mb-[1rem]'>
-                  <div className='mr-2 w-[22px] h-[22px]'><Image src={point} alt='' width={22} height={22} /></div>
+                  <div className='mr-2 w-[22px] h-[22px]'><Image className={`${styles.points} dots`} src={point} alt='' width={22} height={22.16} /></div>
                   <div className='text-sm lg:text-base'>Engage the most valuable customers, who convert at a 50% higher rate than guests.</div>
                 </div>
                 <div className='flex items-center lg:mb-[1rem]'>
-                  <div className='mr-2 w-[22px] h-[22px]'><Image src={point} alt='' width={22} height={22} /></div>
+                  <div className='mr-2 w-[22px] h-[22px]'><Image className={`${styles.points} dots`} src={point} alt='' width={22} height={22.16} /></div>
                   <div className='text-sm lg:text-base'>Give every consumer a lightning-fast, one-click checkout, even if they have never purchased at your site before, and watch your conversion rate rise.</div>
                 </div>
                 <div className='flex items-center lg:mb-[1rem]'>
-                  <div className='mr-2 w-[22px] h-[22px]'><Image src={point} alt='' width={22} height={22} /></div>
+                  <div className='mr-2 w-[22px] h-[22px]'><Image className={`${styles.points} dots`} src={point} alt='' width={22} height={22.16} /></div>
                   <div className='text-sm lg:text-base'>You can rely on our security and privacy. WRKR handles payment data across the network securely and in accordance with applicable laws and standards.</div>
                 </div>
                 <div className='flex items-center lg:mb-[1rem]'>
-                  <div className='mr-2 w-[22px] h-[22px]'><Image src={point} alt='' width={22} height={22} /></div>
+                  <div className='mr-2 w-[22px] h-[22px]'><Image className={`${styles.points} dots`} src={point} alt='' width={22} height={22.16} /></div>
                   <div className='text-sm lg:text-base'>Join the growing network! As more retailers and customers join the WRKR network, it can help you increase sales by providing an amazing experience.</div>
                 </div>
               </div>
@@ -91,19 +91,19 @@ export default function Home() {
                   <div className='lg:text-2xl'>For personal users</div>
                 </div>
                 <div className='flex items-center lg:mb-[1rem]'>
-                  <div className='mr-2 w-[22px] h-[22px]'><Image src={'/point.svg'} alt='' width={22} height={22.16} /></div>
+                  <div className='mr-2 w-[22px] h-[22px]'><Image className={`${styles.points} dots`} src={'/point.svg'} alt='' width={22} height={22.16} /></div>
                   <div className='text-sm lg:text-base'>Create an account once and never have to remember a password again. Then never enter your personal or payment data again when shopping online.</div>
                 </div>
                 <div className='flex items-center lg:mb-[1rem]'>
-                  <div className='mr-2 w-[22px] h-[22px]'><Image src={'/point.svg'} alt='' width={22} height={22.16} /></div>
+                  <div className='mr-2 w-[22px] h-[22px]'><Image className={`${styles.points} dots`} src={'/point.svg'} alt='' width={22} height={22.16} /></div>
                   <div className='text-sm lg:text-base'>No passwords or user names to remember. Customers are verified with a one-time password with no friction.</div>
                 </div>
                 <div className='flex items-center lg:mb-[1rem]'>
-                  <div className='mr-2 w-[22px] h-[22px]'><Image src={point} alt='' width={22} height={22} /></div>
+                  <div className='mr-2 w-[22px] h-[22px]'><Image className={`${styles.points} dots`} src={point} alt='' width={22} height={22.16} /></div>
                   <div className='text-sm lg:text-base'>Convenience and security. WRKR makes it simple to purchase online while maintaining your privacy and security.</div>
                 </div>
                 <div className='flex items-center lg:mb-[1rem]'>
-                  <div className='mr-2 w-[22px] h-[22px]'><Image src={point} alt='' width={22} height={22} /></div>
+                  <div className='mr-2 w-[22px] h-[22px]'><Image className={`${styles.points} dots`} src={point} alt='' width={22} height={22.16} /></div>
                   <div className='text-sm lg:text-base'>Better shopping everywhere. With WRKR, you can use a single click to check out from stores you&apos;ve never visited before.</div>
                 </div>
               </div>
