@@ -4,8 +4,8 @@ import verifyclaim from '../public/verifyclaim.svg'
 
 const VerifyClaimSection = () => {
   return (
-    <div id='verify-claims' className='bg-white'>
-        <main className='max-w-[1440px] px-10 mx-auto max-h-[600px] py-[50px]'>
+    <div id='verify-claims' className='bg-white scroll-mt-32'>
+        <main className='max-w-[1440px] px-10 mx-auto max-h-[600px] py-[50px] lg:py-[212px] lg:bg-[url("../public/claimsgroup.svg")] lg:bg-no-repeat lg:bg-right'>
 
             <div className='flex flex-col'>
 

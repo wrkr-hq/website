@@ -1,3 +1,4 @@
+import { Router } from 'next/router'
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {

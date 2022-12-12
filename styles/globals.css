@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: none;
+  transition-duration: 1000ms;
+}
+
+section {
+  scroll-behavior: smooth;
+}
 
 html,
 body {
@@ -40,4 +49,24 @@ a {
     color: white;
     background: black;
   }
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  border-radius: 100vh;
+  background: #fff;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #02000B;
+  border-radius: 100vh;
+  border: 3px solid #f6f7ed;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #c0a0b9;
 }

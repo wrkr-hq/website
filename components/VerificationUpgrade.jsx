@@ -4,7 +4,7 @@ import upgradeVerification from '../public/upgradeVerification.svg'
 
 const VerificationUpgrade = () => {
   return (
-    <div id="authentication" className='bg-[#FCFBFF]'>
+    <div id="authentication" className='bg-[#FCFBFF] scroll-mt-24'>
       <div className='max-w-[1440px] flex flex-wrap lg:flex-nowrap justify-between px-10 lg:px-20 py-14 text-black
        mx-auto bg-[url("../public/vector2.png")] bg-no-repeat bg-left bg-half max-h-[800px]'>
         <div className='mb-8 lg:mb-0'>

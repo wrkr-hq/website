@@ -14,21 +14,22 @@ import Image from 'next/image'
 import point from '../public/point.svg'
 import briefcase from '../public/briefcase.svg'
 import user from '../public/user.svg'
+import { Icon } from '@iconify/react'
 
 export default function Home() {
   return (
     <div className=''>
       <Head>
-      <link rel="apple-touch-icon" sizes="180x180" href="../public/apple-touch-icon.png"/>
-      <link rel="icon" type="image/png" sizes="32x32" href="../public/favicon-32x32.png"/>
-      <link rel="icon" type="image/png" sizes="16x16" href="../public/favicon-16x16.png"/>
-      <link rel="manifest" href="../public/site.webmanifest"/>
-      <link rel="mask-icon" href="../public/safari-pinned-tab.svg" color="#5bbad5"/>
-      <link rel="shortcut icon" href="../public/favicon.ico"/>
-      <meta name="msapplication-TileColor" content="#da532c"/>
-      <meta name="msapplication-config" content="../public/browserconfig.xml"/>
-      <meta name="theme-color" content="#ffffff"/>
-      <title>WRKR Technologies Inc.</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="../public/apple-touch-icon.png"/>
+        <link rel="icon" type="image/png" sizes="32x32" href="../public/favicon-32x32.png"/>
+        <link rel="icon" type="image/png" sizes="16x16" href="../public/favicon-16x16.png"/>
+        <link rel="manifest" href="../public/site.webmanifest"/>
+        <link rel="mask-icon" href="../public/safari-pinned-tab.svg" color="#5bbad5"/>
+        <link rel="shortcut icon" href="/favicon.ico"/>
+        <meta name="msapplication-TileColor" content="#da532c"/>
+        <meta name="msapplication-config" content="../public/browserconfig.xml"/>
+        <meta name="theme-color" content="#ffffff"/>
+        <title>WRKR Technologies Inc.</title>
       </Head>
       {/* <main className='max-w-[1440px] mx-auto'>
         <h1 className='bg-black w-full text-white text-center lg:text-left'>In the middle, and full!</h1>
@@ -63,7 +64,10 @@ export default function Home() {
             <div className='w-full max-w-[1440px] mx-auto flex flex-col lg:flex-row px-10 mb-10 lg:mb-[107px]'>
               <div className='bg-[#02000B] text-white rounded-md mb-6 p-8 lg:px-[32px] lg:py-[42px] lg:mb-0  lg:mr-[1rem]'>
                 <div className='flex items-center mb-6 lg:mb-[26px]'>
-                  <div className='mr-[1rem]'><Image src={briefcase} alt='' /></div>
+                  <div className='mr-[1rem] bg-white w-[60px] h-[60px] grid place-items-center rounded-full'>
+                    {/* <Image src={briefcase} alt='' /> */}
+                    <Icon icon="material-symbols:business-center-rounded" style={{ fontSize: '32px', color: '#A1CCFF' }} />
+                  </div>
                   <div className='lg:text-2xl'>For businesses</div>
                 </div>
                 <div className='flex items-center lg:mb-[1rem]'>
@@ -87,7 +91,9 @@ export default function Home() {
               <div className='bg-[#02000B] text-white rounded-md mb-6 p-8 lg:px-[32px] lg:py-[42px] lg:mb-0  lg:mr-[1rem]'>
                 
                 <div className='flex items-center mb-6 lg:mb-[26px]'>
-                  <div className='mr-[1rem]'><Image src={user} alt='' /></div>
+                  <div className='mr-[1rem] bg-white w-[60px] h-[60px] grid place-items-center rounded-full'>
+                    <Icon icon="mdi:user" style={{ fontSize: '32px', color: '#A1CCFF' }} />
+                  </div>
                   <div className='lg:text-2xl'>For personal users</div>
                 </div>
                 <div className='flex items-center lg:mb-[1rem]'>

@@ -41,7 +41,7 @@ const Navigation = () => {
                     mx-auto w-full
                     flex flex-col lg:flex-row items-center 
                     text-white justify-between 
-                    lg:px-20 py-8`
+                    lg:px-20 py-8 bg-[#02000B]`
                 :
                     `${styles.nav} 
                     ${styles.fixedTop} 
@@ -49,7 +49,7 @@ const Navigation = () => {
                     mx-auto w-full 
                     flex flex-col lg:flex-row items-center 
                     text-white justify-between 
-                    lg:px-20 py-8`}>
+                    lg:px-20 py-8 bg-[#02000B]`}>
                 
                 <div className='flex max-w-[1440px] mx-auto justify-between w-full items-center px-10 lg:px-0'>
 
