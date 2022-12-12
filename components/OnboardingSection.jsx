@@ -17,7 +17,7 @@ const OnboardingSection = () => {
         <main className='max-w-[1440px] mx-auto w-full lg:bg-[url("../public/vector2.png")] lg:bg-no-repeat lg:bg-right lg:bg-half max-h-[800px] pb-[3.75rem]'>
 
             <div className='flex flex-col text-[#02000B]'>
-              <div className='hidden lg:flex self-center mx-auto border-[1px] border-[#BFDCFFF7] rounded my-[3.75rem]'>
+              <div className='hidden lg:flex self-center mx-auto border-[1px] border-[#BFDCFFF7] rounded my-[3.75rem] bg-white'>
 
                 <Link href={'/'} className="hover:bg-[#BFDCFFF7]" onMouseEnter={() => setPortableOS(true)} onMouseLeave={() => setPortableOS(false)}>
                 <div className='px-[30px] py-[11px] flex items-center'>
