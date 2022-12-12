@@ -5,7 +5,7 @@ import group from '../public/group.png'
 const DetectFraud = () => {
   return (
     <div id="detect-fraud" className='max-w-[1440px] flex flex-col lg:flex-row justify-between px-10 py-10 lg:px-14 lg:py-20 text-black bg-white mx-auto
-     bg-[url("../public/vector2.png")] bg-no-repeat bg-left bg-half max-h-[800px]'>
+     bg-[url("../public/vector2.png")] bg-no-repeat bg-left bg-half max-h-[800px] scroll-mt-20'>
       <div className='mb-10 lg:mb-0'>
         <Image src={group} alt='/'
         width='500'/>

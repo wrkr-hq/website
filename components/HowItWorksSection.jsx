@@ -1,6 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 
+import { Icon } from '@iconify/react'
+
 import step1 from '../public/step1.svg'
 import step2 from '../public/step2.svg'
 import step3 from '../public/step3.svg'
@@ -12,7 +14,7 @@ import unionleft from '../public/Unionleft.svg'
 
 const HowItWorksSection = () => {
   return (
-    <div className='bg-[#02000B] bg-[url("../public/howitworksbg.svg)] lg:bg-[#02000B]'>
+    <div className='bg-[#02000B] lg:bg-[url("../public/howitworksgroup.svg")] lg:bg-[#02000B]'>
         <main className='w-full px-10 lg:max-w-[1440px] mx-auto pb-10 lg:pb-[88px] lg:px-[100px]'>
 
             <div className='flex flex-col'>
@@ -28,7 +30,8 @@ const HowItWorksSection = () => {
                 <div className='flex flex-col lg:flex-row items-center mb-[84px]'>
                     <div className='flex flex-col items-center justify-center mb-10 lg:w-[178px] lg:mr-[84px]'>
                         <div>
-                            <Image src={step1} alt="step 1" />
+                            {/* <Image src={step1} alt="step 1" /> */}
+                            <Icon icon="ic:round-account-circle" style={{ fontSize: '64px', color: '#BFDCFF' }} />
                         </div>
                         <div>
                             <div className='text-white text-center text-[32px] font-semibold'>Step 1</div>
@@ -46,7 +49,8 @@ const HowItWorksSection = () => {
 
                     <div className='flex flex-col items-center justify-center mb-10 lg:w-[178px] lg:mr-[84px]'>
                         <div>
-                            <Image src={step2} alt="step 2" />
+                            {/* <Image src={step2} alt="step 2" /> */}
+                            <Icon icon="ic:round-verified-user" style={{ fontSize: '64px', color: '#BFDCFF' }} />
                         </div>
                         <div>
                             <div className='text-white text-center text-[32px] font-semibold'>Step 2</div>
@@ -57,14 +61,15 @@ const HowItWorksSection = () => {
                     </div>
 
                     <div>
-                        <div className='hidden lg:block lg:invisible lg:mr-[84px]'>
+                        <div className='hidden lg:block lg:mr-[84px]'>
                             <Image src={union} alt="step 1" />
                         </div>
                     </div>
 
                     <div className='flex flex-col items-center justify-center mb-10 lg:w-[178px] lg:mr-[84px]'>
                         <div>
-                            <Image src={step3} alt="step 3" />
+                            {/* <Image src={step3} alt="step 3" /> */}
+                            <Icon icon="fluent-emoji-high-contrast:identification-card" style={{ fontSize: '64px', color: '#BFDCFF' }} />
                         </div>
                         <div>
                             <div className='text-white text-center text-[32px] font-semibold'>Step 3</div>
@@ -102,7 +107,8 @@ const HowItWorksSection = () => {
 
                     <div className='flex flex-col items-center justify-center mb-10 lg:w-[268px]'>
                         <div>
-                            <Image src={step5} alt="step 5" />
+                            {/* <Image src={step5} alt="step 5" /> */}
+                            <Icon icon="mdi:encryption-alert" style={{ fontSize: '64px', color: '#BFDCFF' }} />
                         </div>
                         <div>
                             <div className='text-white text-center text-[32px] font-semibold'>Step 5</div>
@@ -120,7 +126,8 @@ const HowItWorksSection = () => {
 
                     <div className='flex flex-col items-center justify-center mb-10 lg:w-[311px] '>
                         <div>
-                            <Image src={step4} alt="step 4" />
+                            {/* <Image src={step4} alt="step 4" /> */}
+                            <Icon icon="healthicons:i-documents-accepted" style={{ fontSize: '64px', color: '#BFDCFF' }} />
                         </div>
                         <div>
                             <div className='text-white text-center text-[32px] font-semibold'>Step 4</div>

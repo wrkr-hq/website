@@ -4,6 +4,7 @@ import accelerate from '../public/accelerate.svg'
 import friction from '../public/friction.svg'
 import Secure from '../public/Secure.svg'
 import Link from 'next/link'
+import { Icon } from '@iconify/react'
 
 
 const PartnerProgram = () => {
@@ -20,21 +21,21 @@ const PartnerProgram = () => {
      </div>
      <div className='flex flex-col lg:flex-row lg:place-content-center lg:p-32 text-center lg:space-x-36 font-semi-bold text-base'>
         <div className='grid place-items-center mb-10 lg:mb-0'>
-            <Image src={accelerate} alt='Accelerate' />
+            <Icon icon="material-symbols:speed" style={{ fontSize: '64px', color: '#A1CCFF' }} />
             <p className='text-sm lg:text-base'>
             Accelerate revenue and secure digital <br />
              acquisition & onboarding
             </p>
         </div>
         <div className='grid place-items-center mb-10 lg:mb-0'>
-            <Image src={Secure} alt='Secure'/>
+            <Icon icon="vaadin:unlock" style={{ fontSize: '64px', color: '#A1CCFF' }} />
             <p className='text-sm lg:text-base'>
             Manage identities to secure <br />
              digital servicing
             </p>
         </div>
         <div className='grid place-items-center mb-10 lg:mb-0'>
-            <Image src={friction} alt='Reduce friction'/>
+            <Icon icon="ic:sharp-search" style={{ fontSize: '64px', color: '#A1CCFF' }} />
             <p className='text-sm lg:text-base'>
             Reduce friction, fraud and KYC <br />
              false positives
