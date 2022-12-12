@@ -4,7 +4,6 @@ import Image from 'next/image'
 const Landing = () => {
   return (
 <div className='bg-[#02000B] pt-20 lg:pt-[151px]'>
- {/* <Image src={overlay} alt='/' className='bg-black '  /> */}
 <div className='flex flex-col-reverse w-full px-10 lg:flex-row lg:bg-[url("../public/Group.svg")] lg:bg-no-repeat max-w-[1440px] mx-auto justify-between lg:px-20 py-14 text-white'>
         <div>
             <h1 className='text-xl lg:text-4xl font-bold pb-6 lg:pb-14'> 
