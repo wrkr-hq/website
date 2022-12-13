@@ -4,17 +4,17 @@ import Image from 'next/image'
 const Landing = () => {
   return (
 <div className='bg-[#02000B] pt-20 lg:pt-[151px] lg:bg-[url("../public/Group.svg")] lg:bg-no-repeat lg:bg-cover'>
-<div className='flex flex-col-reverse w-full px-10 lg:flex-row  max-w-[1440px] mx-auto justify-between lg:px-20 py-14 text-white'>
+  <div className='flex flex-col-reverse w-full px-10 lg:flex-row  max-w-[1440px] mx-auto justify-between lg:px-20 py-14 text-white'>
         <div>
             <h1 className='text-xl lg:text-4xl font-bold pb-6 lg:pb-14'> 
             The Portable Way of Proving <br />
             Identity and Reputation.
             </h1>
-            <p className='text-sm lg:text-base'>
-            Empower your customers&apos; to continue with 1-click using authenticated personal <br />
-             data they have generated from trusted companies within our Identity network.
+            <p className='text-sm lg:text-base min-w-[600px]'>
+              Empower your customers to continue with 1-click using authenticated personal <br/>
+              data they have generated from trusted companies within our Identity network.
             </p>
-            <br />
+            <br/>
             <p className='text-sm lg:text-base text-[#BFDCFF] mb-14'>
             Realtime, No long forms, document scan or selfies
             </p>
@@ -23,10 +23,9 @@ const Landing = () => {
             </button>
         </div>
         <div className='place-content-center'>
-          <Image  src={landing} alt='/' />
+          { <Image  src={landing} alt='/' />}
         </div>
-    </div>
-
+  </div>
 </div>
   )
 }
