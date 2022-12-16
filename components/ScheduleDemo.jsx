@@ -22,7 +22,7 @@ const ScheduleDemo = () => {
 
                 <div className='px-4 py-4 lg:w-full'>
                     <h1 className='text-[#02000B] text-xl font-medium lg:text-[24px] lg:mb-[32px]'>Schedule a Demo With Our Representative!</h1>
-                    <p className='text-[#02000B] text-[14px] lg:text-[16px]'>Tell us a little about yourself, and we'll get back to you as soon as possible.</p>
+                    <p className='text-[#02000B] text-[14px] lg:text-[16px]'>Tell us a little about yourself, and we&apos;ll get back to you as soon as possible.</p>
                 </div>
 
                 <div className="text-[#02000B] self-start px-4 py-2">
