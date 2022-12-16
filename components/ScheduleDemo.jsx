@@ -12,9 +12,7 @@ const ScheduleDemo = () => {
 
 
     return(
-        // how to connect to navigation?
-        // how to change this to jsx formating? 
-        // where to send information once submitted?
+
     <div>
         <div className='mx-auto w-full p-2 py-28 lg:py-[60px]'>
 
