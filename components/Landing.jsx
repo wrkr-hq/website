@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Landing = () => {
   return (
 <div className='bg-[#02000B] pt-20 lg:pt-[151px] lg:bg-[url("../public/hero_section_rectangles.png")] lg:bg-no-repeat bg-cover bg-bottom'>
-  <div className='flex flex-col-reverse w-full px-10 lg:flex-row  max-w-[1440px] mx-auto justify-between lg:pb-[217px] lg:px-20 py-14 text-white'>
+  <div className='flex flex-col-reverse w-full px-10 lg:flex-row  max-w-[1440px] mx-auto justify-between lg:h-screen lg:px-20 py-14 text-white'>
         <div>
             <h1 className='text-xl lg:text-[40px] lg:leading-[57.4px] font-bold pb-6 lg:pb-14'> 
             The Portable Way of Proving <br />

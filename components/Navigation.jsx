@@ -56,7 +56,7 @@ const Navigation = () => {
                     <div>
                         <Image  src={WRKR} alt='/'/>
                     </div>
-                    <div className='hidden lg:block lg:space-x-4 lg:justify-between '>
+                    <div className='hidden lg:hidden lg:space-x-4 lg:justify-between '>
                         <Link href='/'>
                             Products
                         </Link>
@@ -71,9 +71,11 @@ const Navigation = () => {
                         </Link>
                     </div>
                     <div>
-                        <button className='hidden lg:block border-[1px] rounded-md lg:px-[75px] lg:py-[15px] font-medium text-[#BFDCFF] border-[#BFDCFF]'>
-                            Schedule Demo
-                        </button>
+                        <Link href={'/schedule-demo'}>
+                            <button className='hidden lg:block border-[1px] rounded-md lg:px-[75px] lg:py-[15px] font-medium text-[#BFDCFF] border-[#BFDCFF]'>
+                                Schedule Demo
+                            </button>
+                        </Link>
 
                         {/* mobile */}
                         <div className="flex justify-between 
@@ -107,7 +109,7 @@ const Navigation = () => {
                         <div className="mt-6 bg-[#02000B] lg:hidden 
                             mobile-menu  w-full px-[32px]">
                         <ul className="bg-[#02000B] text-black">
-                            <li className="p-4 text-white">
+                            <li className="hidden p-4 text-white">
                             <Link
                                 href="/"
                                 className="block text-sm px-2 py-4 hover:bg-black hover:text-white transition duration-300"
@@ -115,7 +117,7 @@ const Navigation = () => {
                                 Products
                             </Link>
                             </li>
-                            <li className="p-4 text-white">
+                            <li className="hidden p-4 text-white">
                                 <Link
                                     href="/cart"
                                     className="block text-sm px-2 py-4 hover:bg-black transition hover:text-white duration-300"
@@ -124,7 +126,7 @@ const Navigation = () => {
                                 </Link>
                             </li>
 
-                            <li className="p-4 text-white">
+                            <li className="hidden p-4 text-white">
                                 <Link
                                     href="/cart"
                                     className="block text-sm px-2 py-4 hover:bg-black transition hover:text-white duration-300"
@@ -133,7 +135,7 @@ const Navigation = () => {
                                 </Link>
                             </li>
 
-                            <li className="p-4 text-white">
+                            <li className="hidden p-4 text-white">
                                 <Link
                                     href="/cart"
                                     className="block text-sm px-2 py-4 hover:bg-black transition hover:text-white duration-300"

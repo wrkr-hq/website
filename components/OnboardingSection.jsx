@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import { useRouter } from 'next/router'
 import Link from 'next/link'
 import e2e from '../public/endToEnd.svg'
 
@@ -10,7 +11,10 @@ const OnboardingSection = () => {
   const [authentication, setAuthentication] = React.useState(false)
   const [claims, setClaims] = React.useState(false)
   const [fraud, setFraud] = React.useState(false)
+  const [tab, setTab] = React.useState('PortableOS')
 
+  const router = useRouter()
+  console.log(router.asPath);
 
   return (
     <div id='onboarding' className='bg-white scroll-mt-16'>
@@ -19,46 +23,46 @@ const OnboardingSection = () => {
             <div className='flex flex-col text-[#02000B]'>
               <div className='hidden lg:flex self-center mx-auto border-[1px] border-[#BFDCFFF7] rounded my-[3.75rem] bg-white'>
 
-                <Link href={'/'} className="hover:bg-[#BFDCFFF7]" onMouseEnter={() => setPortableOS(true)} onMouseLeave={() => setPortableOS(false)}>
+                <Link href={'/'} className={`hover:bg-[#BFDCFFF7] ${router.asPath == '/' ? 'bg-[#BFDCFFF7]' : ''}`} onClick={() => setTab('PortableOS')} onMouseEnter={() => setPortableOS(true)} onMouseLeave={() => setPortableOS(false)}>
                 <div className='px-[30px] py-[11px] flex items-center'>
                   <span className='mr-[10px]'>PortableOS</span> 
-                  <span className={`${portableOS ? 'block' : 'hidden'}`}>
+                  <span className={`${router.asPath == '/' ? 'block' : 'hidden'} `}>
                     <Image src={'/arrows.svg'} alt='' width={22} height={16.5} />
                   </span>
                 </div>
                 </Link>
 
-                <Link href={'#onboarding'} className="hover:bg-[#BFDCFFF7]" onMouseEnter={() => setOnboarding(true)} onMouseLeave={() => setOnboarding(false)}>
+                <Link href={'#onboarding'} className={`hover:bg-[#BFDCFFF7] ${router.asPath == '/#onboarding' ? 'bg-[#BFDCFFF7]' : ''}`} onMouseEnter={() => setOnboarding(true)} onMouseLeave={() => setOnboarding(false)}>
                   <div className='px-[30px] flex items-center py-[11px]'>
                     <span className='mr-[10px]'>Onboarding</span>
-                    <span className={`${onboarding ? 'block' : 'hidden'}`}>
+                    <span className={`${router.asPath == '/#onboarding' ? 'block' : 'hidden'}`}>
                       <Image src={'/arrows.svg'} alt='' width={22} height={16.5} />
                     </span>
                   </div>
                 </Link>
 
-                <Link href={'#authentication'} className="hover:bg-[#BFDCFFF7]" onMouseEnter={() => setAuthentication(true)} onMouseLeave={() => setAuthentication(false)}>
+                <Link href={'#authentication'} className={`hover:bg-[#BFDCFFF7] ${router.asPath == '/#authentication' ? 'bg-[#BFDCFFF7]' : ''}`} onMouseEnter={() => setAuthentication(true)} onMouseLeave={() => setAuthentication(false)}>
                   <div className='px-[30px] py-[11px] flex items-center'>
                       <span className='mr-[10px]'>Authentication</span>
-                    <span className={`${authentication ? 'block' : 'hidden'}`}>
+                    <span className={`${router.asPath == '/#authentication' ? 'block' : 'hidden'}`}>
                       <Image src={'/arrows.svg'} alt='' width={22} height={16.5} />
                     </span>
                   </div>
                 </Link>
 
-                <Link href={'#verify-claims'} className="hover:bg-[#BFDCFFF7]" onMouseEnter={() => setClaims(true)} onMouseLeave={() => setClaims(false)}>
+                <Link href={'#verify-claims'} className={`hover:bg-[#BFDCFFF7] ${router.asPath == '/#verify-claims' ? 'bg-[#BFDCFFF7]' : ''}`} onMouseEnter={() => setClaims(true)} onMouseLeave={() => setClaims(false)}>
                   <div className='px-[30px] py-[11px] flex items-center'>
                       <span className='mr-[10px]'>Claims</span>
-                    <span className={`${claims ? 'block' : 'hidden'}`}>
+                    <span className={`${router.asPath == '/#verify-claims' ? 'block' : 'hidden'}`}>
                       <Image src={'/arrows.svg'} alt='' width={22} height={16.5} />
                     </span>
                   </div>
                 </Link>
 
-                <Link href={'#detect-fraud'} className="hover:bg-[#BFDCFFF7]" onMouseEnter={() => setFraud(true)} onMouseLeave={() => setFraud(false)}>
+                <Link href={'#detect-fraud'} className={`hover:bg-[#BFDCFFF7] ${router.asPath == '/#detect-fraud' ? 'bg-[#BFDCFFF7]' : ''}`} onMouseEnter={() => setFraud(true)} onMouseLeave={() => setFraud(false)}>
                   <div className='px-[30px] py-[11px] flex items-center'>
                       <span className='mr-[10px]'>Fraud</span>
-                    <span className={`${fraud ? 'block' : 'hidden'}`}>
+                    <span className={`${router.asPath == '/#detect-fraud' ? 'block' : 'hidden'}`}>
                       <Image src={'/arrows.svg'} alt='' width={22} height={16.5} />
                     </span>
                   </div>
