@@ -53,9 +53,9 @@ export default function Home() {
           <div>
             <DetectFraud/>
           </div>
-          <div>
+          {/* <div>
             <HowItWorksSection />
-          </div>
+          </div> */}
           <div>
             <PersonalIdentity/>
           </div>
