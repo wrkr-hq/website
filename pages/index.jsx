@@ -29,7 +29,7 @@ export default function Home() {
         <meta name="msapplication-TileColor" content="#da532c"/>
         <meta name="msapplication-config" content="../public/browserconfig.xml"/>
         <meta name="theme-color" content="#ffffff"/>
-        <title>WRKR Technologies Inc.</title>
+        <title>GETWRKR: Your Passport for the web</title>
       </Head>
       {/* <main className='max-w-[1440px] mx-auto'>
         <h1 className='bg-black w-full text-white text-center lg:text-left'>In the middle, and full!</h1>
@@ -66,25 +66,25 @@ export default function Home() {
                 <div className='flex items-center mb-6 lg:mb-[26px]'>
                   <div className='mr-[1rem] bg-white w-[60px] h-[60px] grid place-items-center rounded-full'>
                     {/* <Image src={briefcase} alt='' /> */}
-                    <Icon icon="material-symbols:business-center-rounded" style={{ fontSize: '32px', color: '#A1CCFF' }} />
+                    <Icon icon="material-symbols:business-center-rounded" style={{ fontSize: '35px', color: '#A1CCFF' }} />
                   </div>
-                  <div className='lg:text-2xl'>For businesses</div>
+                  <div className='lg:text-3xl'>For businesses</div>
                 </div>
                 <div className='flex items-center lg:mb-[1rem]'>
                   <div className='mr-2 w-[22px] h-[22px]'><Image className={`${styles.points} dots`} src={point} alt='' width={22} height={22.16} /></div>
-                  <div className='text-sm lg:text-base'>Engage the most valuable customers, who convert at a 50% higher rate than guests.</div>
+                  <div className='text-sm lg:text-base'>Increase conversion rates and optimize customer acquisition costs.</div>
                 </div>
                 <div className='flex items-center lg:mb-[1rem]'>
                   <div className='mr-2 w-[22px] h-[22px]'><Image className={`${styles.points} dots`} src={point} alt='' width={22} height={22.16} /></div>
-                  <div className='text-sm lg:text-base'>Give every consumer a lightning-fast, one-click checkout, even if they have never purchased at your site before, and watch your conversion rate rise.</div>
+                  <div className='text-sm lg:text-base'>Create a frictionless user access flow experience that just works no matter where.</div>
                 </div>
                 <div className='flex items-center lg:mb-[1rem]'>
                   <div className='mr-2 w-[22px] h-[22px]'><Image className={`${styles.points} dots`} src={point} alt='' width={22} height={22.16} /></div>
-                  <div className='text-sm lg:text-base'>You can rely on our security and privacy. WRKR handles payment data across the network securely and in accordance with applicable laws and standards.</div>
+                  <div className='text-sm lg:text-base'>Enforce consistent access, authentication, and authorization policies across distributed infrastructure.</div>
                 </div>
                 <div className='flex items-center lg:mb-[1rem]'>
                   <div className='mr-2 w-[22px] h-[22px]'><Image className={`${styles.points} dots`} src={point} alt='' width={22} height={22.16} /></div>
-                  <div className='text-sm lg:text-base'>Join the growing network! As more retailers and customers join the WRKR network, it can help you increase sales by providing an amazing experience.</div>
+                  <div className='text-sm lg:text-base'>Plan, integrate, test, validate and head into production — all in a few days.</div>
                 </div>
               </div>
 
@@ -92,25 +92,25 @@ export default function Home() {
                 
                 <div className='flex items-center mb-6 lg:mb-[26px]'>
                   <div className='mr-[1rem] bg-white w-[60px] h-[60px] grid place-items-center rounded-full'>
-                    <Icon icon="mdi:user" style={{ fontSize: '32px', color: '#A1CCFF' }} />
+                    <Icon icon="mdi:user" style={{ fontSize: '35px', color: '#A1CCFF' }} />
                   </div>
-                  <div className='lg:text-2xl'>For personal users</div>
+                  <div className='lg:text-3xl'>For personal users</div>
                 </div>
                 <div className='flex items-center lg:mb-[1rem]'>
                   <div className='mr-2 w-[22px] h-[22px]'><Image className={`${styles.points} dots`} src={'/point.svg'} alt='' width={22} height={22.16} /></div>
-                  <div className='text-sm lg:text-base'>Create an account once and never have to remember a password again. Then never enter your personal or payment data again when shopping online.</div>
+                  <div className='text-sm lg:text-base'>Better account opening experience by reusing existing verified identities.</div>
                 </div>
                 <div className='flex items-center lg:mb-[1rem]'>
                   <div className='mr-2 w-[22px] h-[22px]'><Image className={`${styles.points} dots`} src={'/point.svg'} alt='' width={22} height={22.16} /></div>
-                  <div className='text-sm lg:text-base'>No passwords or user names to remember. Customers are verified with a one-time password with no friction.</div>
+                  <div className='text-sm lg:text-base'>No passwords or user names to remember. Identify yourself in a few seconds with biometrics</div>
                 </div>
                 <div className='flex items-center lg:mb-[1rem]'>
                   <div className='mr-2 w-[22px] h-[22px]'><Image className={`${styles.points} dots`} src={point} alt='' width={22} height={22.16} /></div>
-                  <div className='text-sm lg:text-base'>Convenience and security. WRKR makes it simple to purchase online while maintaining your privacy and security.</div>
+                  <div className='text-sm lg:text-base'>Retain control of your Identity Information, private keys and associated data.</div>
                 </div>
                 <div className='flex items-center lg:mb-[1rem]'>
                   <div className='mr-2 w-[22px] h-[22px]'><Image className={`${styles.points} dots`} src={point} alt='' width={22} height={22.16} /></div>
-                  <div className='text-sm lg:text-base'>Better shopping everywhere. With WRKR, you can use a single click to check out from stores you&apos;ve never visited before.</div>
+                  <div className='text-sm lg:text-base'>Use a single click to sign-in to apps you&apos;ve never used before.</div>
                 </div>
               </div>
             </div>

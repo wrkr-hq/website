@@ -12,13 +12,12 @@ const DetectFraud = () => {
       </div>
       <div className='grid content-center'>
         <h3 className='text-xl lg:text-3xl font-semibold pb-8'>
-        Detect fraud automatically. <br />
-        100% fraud covered
+        Fraud. No longer your problem.
         </h3>
         <p className='text-sm lg:text-base'>
         Eliminates the tradeoffs between security and privacy by connecting account <br />
          registration to account access and account recovery using state-of-the-art <br />
-         decentralized turnkey biometric authentication and using other phone centric <br />
+         decentralized turnkey biometric authentication and other phone centric <br />
          Identity attributes.
 
 

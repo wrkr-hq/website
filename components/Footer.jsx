@@ -8,7 +8,9 @@ const Footer = () => {
                 <div className='max-w-[491px] mb-8 lg:mb-0 lg:mr-[81px]'>
                     <div className='text-[33.54px] font-[900]'>WRKR</div>
                     <div>
-                        <p>we&apos;re a real-time reusable, interoperable digital identity & claims infrastructure that enables businesses to verify the reputation of their customer before they serve them while prioritizing user privacy.
+                        <p>WRKR is creating the modern path for our distributed world where identities are secure, and customer acquisition is uncomplicated.
+                            Through our infrastructure we empower companies and users to perform verified identity-based authentication and store 
+                            reusable Identity on the secure enclave of their device, eliminating the need for passwords, one-time codes, and more.
                         </p>
                     </div>
                 </div>

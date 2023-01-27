@@ -63,16 +63,16 @@ const Navigation = () => {
             <Link href='/'>
               Usecases
             </Link>
-            <Link href='/'>
+            <Link href='#/'>
               Developers
             </Link>
-            <Link href='/'>
+            <Link href='#/'>
               Company
             </Link>
           </div>
           <div>
             <Link href={'/schedule-demo'}>
-              <button className='hidden lg:block border-[1px] rounded-md lg:px-[75px] lg:py-[15px] font-medium text-[#BFDCFF] border-[#BFDCFF]'>
+              <button className='hidden lg:block border-[1px] rounded-md lg:px-[50px] lg:py-[12px] font-medium text-[#BFDCFF] border-[#BFDCFF]'>
                 Schedule Demo
               </button>
             </Link>

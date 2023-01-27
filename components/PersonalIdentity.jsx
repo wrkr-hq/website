@@ -14,13 +14,13 @@ const PersonalIdentity = () => {
      
       <div className='grid content-center self-center'>
         <h3 className='text-xl lg:text-3xl font-semibold pb-8'>
-        Personal Identity Verification
+        Digital Identity Wallet
         </h3>
         <p className='text-sm lg:text-base'>
-        Unlock access to services. Own and control your  <br />
-         identity. Lorem ipsum dolor sit amet consectetur. <br />
-         Lorem ipsum dolor sit amet consectetur. Ascelem risque <br /> 
-         phasellus 
+        Reuse verified identities to make identity verification faster.<br/>
+        Use our digital identity wallet to grant your customers instant<br/>
+        access to your services and enable them make legally valid <br/>
+        claims faster than ever before.
         </p>
         <div>
           <div className='flex space-x-4 mt-24'>

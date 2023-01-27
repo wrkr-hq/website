@@ -11,9 +11,12 @@ const VerifyClaimSection = () => {
 
             <div className='flex flex-col-reverse lg:flex-row  items-center'>
                 <div className='w-full lg:w-[498px] lg:mr-[100px] text-[#02000B]'>
-                  <div className='text-xl lg:text-[32px] lg:mb-[32px] font-semibold lg:leading-[46.37px]'>Verify claims from different industries</div>
+                  <div className='text-xl lg:text-[32px] lg:mb-[32px] font-semibold lg:leading-[46.37px]'>More than Identity verification</div>
                   <div className='text-sm lg:text-base lg:leading-[29.02px]'>
-                  Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur. Ascelem risque phasellus elit nulla urna mollis sagittis gravn ac. Mollis netus venenatis lacus leo tellus at.
+                  Access rich identity attribute of your customers like<br/>
+                  employment history, Income, and educational certificates,<br/>
+                  verified and stored on the secure enclave of their device <br/>
+                  and under sole control by the customer secured via live biometric.
                   </div>
                 </div>
 

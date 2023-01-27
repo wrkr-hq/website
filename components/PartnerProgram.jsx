@@ -15,7 +15,7 @@ const PartnerProgram = () => {
         Partner Program
         </div>
         <p className='text-sm mb-8 lg:mb-0 lg:text-base'>
-        Partner with WRKR to help other businesses modernize the way they engage with customers <br />
+        Partner with us to help other businesses modernize the way they engage with customers <br />
          and mitigate fraud. Our solutions enable companies to
         </p>
      </div>
