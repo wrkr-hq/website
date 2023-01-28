@@ -56,17 +56,17 @@ const Navigation = () => {
           <Link href={'/'}>
             <Image src={WRKR} alt='/' />
           </Link>
-          <div className='hidden lg:hidden lg:space-x-4 lg:justify-between '>
+          <div className='hidden lg:flex lg:space-x-4 lg:justify-between '>
             <Link href='/'>
               Products
             </Link>
             <Link href='/'>
               Usecases
             </Link>
-            <Link href='#/'>
+            <Link href='/'>
               Developers
             </Link>
-            <Link href='#/'>
+            <Link href='/'>
               Company
             </Link>
           </div>

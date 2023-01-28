@@ -8,19 +8,17 @@ const DetectFraud = () => {
      bg-[url("../public/vector2.png")] bg-no-repeat bg-left bg-half max-h-[800px] lg:pb-[241px] scroll-mt-20'>
       <div className='mb-10 lg:mb-0'>
         <Image src={group} alt='/'
-        width='500'/>
+          width='500' />
       </div>
       <div className='grid content-center'>
         <h3 className='text-xl lg:text-3xl font-semibold pb-8'>
-        Fraud. No longer your problem.
+          Fraud. No longer your problem.
         </h3>
-        <p className='text-sm lg:text-base'>
-        Eliminates the tradeoffs between security and privacy by connecting account <br />
-         registration to account access and account recovery using state-of-the-art <br />
-         decentralized turnkey biometric authentication and other phone centric <br />
-         Identity attributes.
-
-
+        <p className='text-sm lg:text-base max-w-xl'>
+          Eliminates the tradeoffs between security and privacy by connecting account
+          registration to account access and account recovery using state-of-the-art
+          decentralized turnkey biometric authentication and other phone centric
+          Identity attributes.
         </p>
       </div>
     </div>

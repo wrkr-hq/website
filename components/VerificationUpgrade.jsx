@@ -17,7 +17,7 @@ const VerificationUpgrade = () => {
           </h3>
           <p className='text-sm lg:text-base'>
           Instead of requiring your customers to identify themselves repeatedly,gift them the convenience & efficiency of bringing their pre-verified Identity and account to you.
-         No need to fill out another signup or login form again. <br />
+         No need to fill out another signup or login form again.
           </p>
         </div>
       </div>
